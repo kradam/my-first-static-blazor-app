@@ -1,5 +1,37 @@
 ﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
+td {
+    padding: 2px;
+    text-align: center;
+}
+
+    td:last-child {
+        /*    border: none;*/
+        /*background-color: #ffffff;*/
+    }
+
+.td-pair-first {
+    background-color: lightgray;
+}
+
+.td-pair-second {
+    background-color: lightslategray;
+}
+
+.input-player {
+    width: 9em;
+    margin: 5px;
+}
+
+.input-trick {
+    width: 2.5em;
+}
+
+.btn-game-state {
+    width: 5em;
+}
+
+
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
